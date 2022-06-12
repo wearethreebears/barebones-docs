@@ -5,7 +5,7 @@ export default {
         logo: '/logo.png',
         nav: [
             { text: 'Guide', link: '/guide/' },
-            { text: 'Changelog', link: 'https://github.com/wearethreebears/barebones' }
+            { text: 'Changelog', link: 'https://github.com/wearethreebears/barebones/blob/main/CHANGELOG.md' }
         ],
         sidebar: {
             '/guide/': [
