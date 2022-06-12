@@ -13,7 +13,7 @@ The Barebones `Grid` component is designed to wrap the Barebones `Column` compon
 
 | Prop name | Description |
 |-----------|-------------|
-| tag | `tag` accepts the type `Layout`, see [types](/guide/components/column.html#types). The default value is `div` |
+| tag | `tag` accepts the type `Layout`, see [types](/guide/components/column.html#prop-types). The default value is `div` |
 
 ## Slots
 
@@ -21,7 +21,7 @@ The Barebones `Grid` component is designed to wrap the Barebones `Column` compon
 |-----------|-------------|
 | default | The `default` slot is provided by Vue |
 
-## Types
+## Prop Types
 
 ### Layout
 
@@ -38,4 +38,12 @@ export type Layout =
   | "li"
   | "aside"
   | "ol";
+```
+
+## Component Type
+
+```ts
+export interface Grid {
+  parts: Parts;
+}
 ```

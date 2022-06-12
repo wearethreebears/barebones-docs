@@ -14,3 +14,11 @@ The Barebones `Aside` component is simply a layout component that extends the HT
 | Slot name | Description |
 |-----------|-------------|
 | default | The `default` slot is provided by Vue |
+
+## Component Type
+
+```ts
+export interface Aside {
+  parts: Parts;
+}
+```

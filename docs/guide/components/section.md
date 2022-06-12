@@ -14,3 +14,11 @@ The Barebones `Section` component is simply a layout component that extends the 
 | Slot name | Description |
 |-----------|-------------|
 | default | The `default` slot is provided by Vue |
+
+## Component Type
+
+```ts
+export interface Section {
+  parts: Parts;
+}
+```

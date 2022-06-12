@@ -14,9 +14,9 @@ The Barebones `Image` component uses reserves it's space with a wrapper div prev
 
 | Prop name | Description |
 |-----------|-------------|
-| image | The `image` an `Object` of type `Image`, the `Image` type has 4 required properties, see [types](/guide/components/image.html#types) |
+| image | The `image` an `Object` of type `Image`, the `Image` type has 4 required properties, see [types](/guide/components/image.html#prop-types) |
 
-## Types
+## Prop Types
 
 ### Image
 
@@ -26,5 +26,16 @@ export interface Image {
   width: number;
   height: number;
   alt: string;
+}
+```
+
+## Component Type
+
+```ts
+export interface Image {
+  parts: Parts;
+  loadingDefault: string;
+  loadedFalse: string;
+  loadedTrue: string;
 }
 ```

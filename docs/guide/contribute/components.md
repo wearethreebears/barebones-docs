@@ -9,7 +9,7 @@ Please note that not all new components will be added to the library. New compon
 To help with boilerplate when creating new components, Barebones comes with a Scaffolding command. To create a new component, in the root directory run the following command:
 
 ```
-    yarn component:build ComponentName
+yarn component:build ComponentName
 ```
 
 Where `ComponentName` is your desired component name.
@@ -19,7 +19,7 @@ Where `ComponentName` is your desired component name.
 As well as providing a scaffolding command for creating new components, Barebones also offers a destory command. To remove an existing component, in the root directory run the following command:
 
 ```
-    yarn component:destroy ComponentName
+yarn component:destroy ComponentName
 ```
 
 Where `ComponentName` the name of the component you'd like to remove.

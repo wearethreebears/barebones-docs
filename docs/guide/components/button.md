@@ -26,3 +26,11 @@ The Barebones `Button` component can be a button, internal router link (RouterLi
 | complete | The `complete` slot will display if the `state` prop is "complete" |
 
 Barebones does not assume you would like to use different button states, so these slots are blank by default. If you'd like to use these slots, to avoid repetition it's suggested you wrap the BareBones `Button` component in a local component. (Current suggested naming convention for components that wrap Barebones components in this manner is `AppButton`).
+
+## Component Type
+
+```ts
+export interface Button {
+  parts: Parts;
+}
+```

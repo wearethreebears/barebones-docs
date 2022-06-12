@@ -26,6 +26,7 @@ export default {
                         { text: 'Grid', link: '/guide/components/grid' },
                         { text: 'Image', link: '/guide/components/image' },
                         { text: 'Main', link: '/guide/components/main' },
+                        { text: 'Modal', link: '/guide/components/modal' },
                         { text: 'Overlay', link: '/guide/components/overlay' },
                         { text: 'Section', link: '/guide/components/section' },
                         { text: 'Tabs', link: '/guide/components/tabs' },

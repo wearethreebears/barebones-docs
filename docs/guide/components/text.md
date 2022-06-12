@@ -20,3 +20,11 @@ The Barebones `Text` component is designed be used for all text elements.
 | Slot name | Description |
 |-----------|-------------|
 | default | The `default` slot is provided by Vue |
+
+## Component Type
+
+```ts
+export interface Text {
+  parts: Parts;
+}
+```
