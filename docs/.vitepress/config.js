@@ -58,6 +58,10 @@ export default {
                 },
             ]
         },
+        socialLinks: [
+            { icon: 'github', link: 'https://github.com/wearethreebears/barebones' },
+            { icon: 'twitter', link: 'https://twitter.com/barebonesjs' },
+        ],
         footer: {
             message: 'Released under the MIT License.',
             copyright: 'Copyright © 2022-present Liam Hall'
