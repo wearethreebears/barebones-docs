@@ -1,4 +1,4 @@
-# Column
+# Image (BonesImage)
 
 ## Overview
 The Barebones `Image` component uses reserves it's space with a wrapper div preventing content shift and uses browsers built in lazy loading to load images only when needed. An onload event allows you to customize any loaded animation.

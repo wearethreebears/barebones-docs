@@ -1,4 +1,4 @@
-# Column
+# Text (BonesText)
 
 ## Overview
 The Barebones `Text` component is designed be used for all text elements.

@@ -1,7 +1,7 @@
-# Main
+# Main (BonesMain)
 
 ## Overview
-The Barebones `Main` component is simply a layout component that extends the HTML `<main>` elementand excepts a default slot.
+The Barebones `Main` component is simply a layout component that extends the HTML `<main>` element and excepts a default slot.
 
 ## Component parts
 

@@ -1,4 +1,4 @@
-# Column
+# Column (BonesGrid)
 
 ## Overview
 The Barebones `Grid` component is designed to wrap the Barebones `Column` component.

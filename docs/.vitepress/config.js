@@ -5,6 +5,7 @@ export default {
         logo: '/logo.png',
         nav: [
             { text: 'Guide', link: '/guide/' },
+            { text: 'Roadmap', link: '/roadmap/components' },
             { text: 'Changelog', link: 'https://github.com/wearethreebears/barebones/blob/main/CHANGELOG.md' }
         ],
         sidebar: {
@@ -45,6 +46,16 @@ export default {
                         { text: 'Contribute components', link: '/guide/contribute/components' },
                     ]
                 }
+            ],
+            '/roadmap/': [
+                {
+                    text: 'Roadmap',
+                    items: [
+                        { text: 'Components', link: '/roadmap/components' },
+                        { text: 'Themes', link: '/roadmap/themes' },
+                        { text: 'CSS libraries', link: '/roadmap/libraries' },
+                    ]
+                },
             ]
         },
         footer: {

@@ -2,7 +2,7 @@
 
 ## Overview
 
-Configuring Barebones components is simple. Each component will have 2 associated local files in your project, `.props.ts` and `.parts.ts`. These files will control the component props and component part styles respectivley.
+Configuring Barebones components is simple. Each component will have 2 associated local files in your project, `.props.ts` and `.parts.ts`. These files will control the component props and component part styles respectively.
 
 ## .props.ts
 `.props.ts` files determine the props you'd like to pass to you components, this allows you to shape the way you use component styles in a way that works for you. A simple example of what a components `.props.ts` could look like could be a `Column` component, a `Column` should `span` `x` amount of columns in a `Grid`, in the following example, whenever you used the `Column` component, you'd pass `x` to the prop `span`:

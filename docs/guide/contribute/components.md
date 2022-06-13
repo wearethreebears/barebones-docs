@@ -14,9 +14,9 @@ yarn component:build ComponentName
 
 Where `ComponentName` is your desired component name.
 
-## Removing an exisiting compomnent
+## Removing an existing component
 
-As well as providing a scaffolding command for creating new components, Barebones also offers a destory command. To remove an existing component, in the root directory run the following command:
+As well as providing a scaffolding command for creating new components, Barebones also offers a destroy command. To remove an existing component, in the root directory run the following command:
 
 ```
 yarn component:destroy ComponentName

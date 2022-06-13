@@ -1,4 +1,4 @@
-# Aside
+# Aside (BonesAside)
 
 ## Overview
 The Barebones `Aside` component is simply a layout component that extends the HTML `<aside>` element and excepts a default slot.

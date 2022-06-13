@@ -1,4 +1,4 @@
-# Section
+# Section (BonesSection)
 
 ## Overview
 The Barebones `Section` component is simply a layout component that extends the HTML `<section>` element and excepts a default slot.

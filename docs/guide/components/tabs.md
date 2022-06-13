@@ -1,4 +1,4 @@
-# Tabs
+# Tabs (BonesTabs)
 
 ## Overview
 The Barebones `Tabs` component is an accessible keyboard compatible tabbing component.
@@ -25,7 +25,7 @@ The Barebones `Tabs` component is an accessible keyboard compatible tabbing comp
 
 | Slot name | Description |
 |-----------|-------------|
-| Wildard* | The wildcard slot is the content of a tab it's name should match a key in the tabs prop array  |
+| Wildcard* | The wildcard slot is the content of a tab it's name should match a key in the tabs prop array  |
 
 ## Prop Types
 

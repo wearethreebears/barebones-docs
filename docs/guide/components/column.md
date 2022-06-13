@@ -1,4 +1,4 @@
-# Column
+# Column (BonesColumn)
 
 ## Overview
 The Barebones `Column` component is designed to slot inside the Barebones `Grid` component.

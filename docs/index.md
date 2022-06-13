@@ -12,7 +12,7 @@ features:
     details: Simple local configuration files give you control.
 hero:
   name: BareBones
-  text: Customizable components built for Vue 3 and Nuxt 3.
+  text: Customizable components built for Vue and Nuxt.
   tagline: Build faster without design constraints
   actions:
     - theme: brand
