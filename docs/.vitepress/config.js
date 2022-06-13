@@ -1,6 +1,27 @@
 export default {
+    lang: 'en-US',
     title: 'Barebones Components',
     description: 'Customizable components designed built for Vue 3 and Nuxt 3.',
+    head: [
+        ['meta', { name: 'twitter:site', content: '@barebonesjs' }],
+        ['meta', { name: 'twitter:card', content: 'summary' }],
+        [
+            'meta',
+            {
+                name: 'twitter:image',
+                content: 'https://barebones.wearethreebears.co.uk/logo.png'
+            }
+        ],
+        [
+            'script',
+            {
+                src: 'https://cdn.usefathom.com/script.js',
+                'data-site': 'MDBRZGEX',
+                'data-spa': 'auto',
+                defer: ''
+            }
+        ]
+    ],
     themeConfig: {
         logo: '/logo.png',
         nav: [
