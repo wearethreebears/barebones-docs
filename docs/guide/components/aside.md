@@ -1,3 +1,7 @@
+::: warning
+While the documentation is fairly complete, it is still in first draft.
+:::
+
 # Aside (BonesAside)
 
 ## Overview
@@ -21,4 +25,13 @@ The Barebones `Aside` component is simply a layout component that extends the HT
 export interface Aside {
   parts: Parts;
 }
+```
+
+## Examples
+
+## Examples
+
+### Code
+```html
+<BonesAside></BonesAside>
 ```

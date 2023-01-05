@@ -1,3 +1,7 @@
+::: warning
+While the documentation is fairly complete, it is still in first draft.
+:::
+
 # Main (BonesMain)
 
 ## Overview
@@ -21,4 +25,11 @@ The Barebones `Main` component is simply a layout component that extends the HTM
 export interface Main {
   parts: Parts;
 }
+```
+
+## Examples
+
+### Code
+```html
+<BonesMain></BonesMain>
 ```

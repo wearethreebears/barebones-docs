@@ -1,3 +1,7 @@
+::: warning
+While the documentation is fairly complete, it is still in first draft.
+:::
+
 # Contribute components 
 
 ## Overview

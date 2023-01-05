@@ -1,7 +1,15 @@
+<script setup>
+  import BonesButton from '@barebones/components/Button/Button.vue';
+</script>
+
+::: warning
+While the documentation is fairly complete, it is still in first draft.
+:::
+
 # Button (BonesButton)
 
 ## Overview
-The Barebones `Button` component can be a button, internal router link (RouterLink or NuxtLink), or an external link, depending on the props passed. By default the `Button` component is button element, but can become a link by passing a URL string to the `to` prop. If the URL begins with a `/` the `Button` component will assume it is internal. The `Button` component takes a number of slots, please see [slots](/guide/components/button.html#slots) below.
+The Barebones `Button` component can be a button, an internal router link (RouterLink or NuxtLink), or an external link, depending on the props passed. By default, the `Button` component is a button element but can become a link by passing a URL string to the `to` prop. If the URL begins with a `/` the `Button` component will assume it is internal. The `Button` component takes a number of slots, please see [slots](/guide/components/button.html#slots) below.
 
 ## Component parts
 
@@ -34,3 +42,17 @@ export interface Button {
   parts: Parts;
 }
 ```
+
+
+## Examples
+::: warning
+Examples use tailwind/salient theme, to use this theme you may add it using the theme npx command and installing Tailwind JIT in your application. [Read more about themes](/guide/themes.html).
+:::
+
+### Code
+```html
+<BonesButton to="http://bbc.co.uk">News</BonesButton>
+```
+### Output
+<br />
+<BonesButton to="http://bbc.co.uk" style="color: white;">News</BonesButton>

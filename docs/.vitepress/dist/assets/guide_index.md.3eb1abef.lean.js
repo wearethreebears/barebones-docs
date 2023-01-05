@@ -1,0 +1,1 @@
+import{_ as e,b as t,e as a,j as o}from"./app.4bdd4f75.js";const f='{"title":"What is Barebones","description":"","frontmatter":{},"headers":[],"relativePath":"guide/index.md"}',i={name:"guide/index.md"},r=o("",6),s=[r];function n(h,d,c,l,m,u){return t(),a("div",null,s)}var _=e(i,[["render",n]]);export{f as __pageData,_ as default};

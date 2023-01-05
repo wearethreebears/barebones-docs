@@ -1,3 +1,33 @@
+<script setup>
+  import BonesTabs from '@barebones/components/Tabs/Tabs.vue';
+  const tabs = [
+      {
+        key: 'bronxTale',
+        title: 'Bronx Tale',
+      },
+      {
+        key: 'goodfellas',
+        title: 'Goodfellas',
+      },
+    ]
+</script>
+
+<style>
+  .m-0 {
+    margin: 0 !important;
+  }
+  .list-style-none {
+    list-style: none !important;
+  }
+  .p-0 {
+    padding: 0 !important;
+  }
+</style>
+
+::: warning
+While the documentation is fairly complete, it is still in first draft.
+:::
+
 # Tabs (BonesTabs)
 
 ## Overview
@@ -43,3 +73,38 @@ export interface Tabs {
   parts: Parts;
 }
 ```
+
+## Examples
+
+::: warning
+Examples use tailwind/salient theme, to use this theme you may add it using the theme npx command and installing Tailwind JIT in your application. [Read more about themes](/guide/themes.html).
+:::
+
+### Code
+```html
+<BonesTabs
+  :tabs="[
+    {
+      key: 'bronx-tale',
+      title: 'Bronx Tale',
+    },
+    {
+      key: 'goodfellas',
+      title: 'Goodfellas',
+    },
+  ]"
+>
+  <template #bronxTale> The Bronx...</template>
+  <template #goodfellas>The story of Irish-Italian...</template>
+</BonesTabs>
+```
+### Output
+<br />
+<BonesTabs :tabs="tabs">
+  <template #bronxTale>
+    The Bronx, New York, 1960. 9-year-old Calogero grows up admiring and fascinated by the local mob boss, Sonny. Calogero's father, Lorenzo, wants to have nothing to do with the mob and does his best to keep his son away from Sonny and mob business. However, it may prove a losing battle.
+  </template>
+  <template #goodfellas>
+    The story of Irish-Italian American, Henry Hill, and how he lives day-to-day life as a member of the Mafia. Based on a true story, the plot revolves around Henry and his two unstable friends Jimmy and Tommy as they gradually climb the ladder from petty crime.
+  </template>
+</BonesTabs>

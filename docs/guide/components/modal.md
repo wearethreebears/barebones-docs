@@ -1,3 +1,19 @@
+<script setup>
+  import BonesModal from '@barebones/components/Modal/Modal.vue';
+  import BonesText from '@barebones/components/Text/Text.vue';
+</script>
+<style>
+  #modal-title {
+    border-top: 0;
+    padding: 0;
+    margin: 0;
+  }
+</style>
+
+::: warning
+While the documentation is fairly complete, it is still in first draft.
+:::
+
 # Modal (BonesModal)
 
 ## Overview
@@ -33,3 +49,32 @@ export interface Modal {
   parts: Parts;
 }
 ```
+
+## Examples
+
+::: warning
+Examples use tailwind/salient theme, to use this theme you may add it using the theme npx command and installing Tailwind JIT in your application. [Read more about themes](/guide/themes.html).
+:::
+
+### Code
+```html
+<BonesModal>
+  <template #title>
+    A Bronx Tale
+  </template>
+  <BonesText>
+    The Bronx, New York, 1960. 9-year-old Calogero grows up admiring and fascinated by the local mob boss, Sonny. Calogero's father, Lorenzo, wants to have nothing to do with the mob and does his best to keep his son away from Sonny and mob business. However, it may prove a losing battle.
+  </BonesText>
+</BonesModal>
+```
+
+### Output
+<br />
+<BonesModal>
+  <template #title>
+    A Bronx Tale
+  </template>
+  <BonesText>
+    The Bronx, New York, 1960. 9-year-old Calogero grows up admiring and fascinated by the local mob boss, Sonny. Calogero's father, Lorenzo, wants to have nothing to do with the mob and does his best to keep his son away from Sonny and mob business. However, it may prove a losing battle.
+  </BonesText>
+</BonesModal>

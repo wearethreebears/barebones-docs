@@ -1,3 +1,7 @@
+::: warning
+While the documentation is fairly complete, it is still in first draft.
+:::
+
 # Section (BonesSection)
 
 ## Overview
@@ -21,4 +25,11 @@ The Barebones `Section` component is simply a layout component that extends the 
 export interface Section {
   parts: Parts;
 }
+```
+
+## Examples
+
+### Code
+```html
+<BonesSection></BonesSection>
 ```

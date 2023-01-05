@@ -1,3 +1,11 @@
+<script setup>
+  import BonesImage from '@barebones/components/Image/Image.vue';
+</script>
+
+::: warning
+While the documentation is fairly complete, it is still in first draft.
+:::
+
 # Image (BonesImage)
 
 ## Overview
@@ -39,3 +47,33 @@ export interface Image {
   loadedTrue: string;
 }
 ```
+
+## Examples
+
+::: warning
+Examples use tailwind/salient theme, to use this theme you may add it using the theme npx command and installing Tailwind JIT in your application. [Read more about themes](/guide/themes.html).
+:::
+
+### Code
+```html
+<BonesImage
+  :image="{
+    url: 'goodfellas.png',
+    width: 150,
+    height: 150,
+    alt: 'Goodfellas movie poster',
+  }"
+/>
+</BonesModal>
+```
+
+### Output
+
+<BonesImage
+  :image="{
+    url: 'goodfellas.jpg',
+    width: 150,
+    height: 150,
+    alt: 'Goodfellas movie poster',
+  }"
+/>

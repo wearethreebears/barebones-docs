@@ -1,3 +1,12 @@
+<script setup>
+  import BonesGrid from '@barebones/components/Grid/Grid.vue';
+  import BonesColumn from '@barebones/components/Column/Column.vue';
+</script>
+
+::: warning
+While the documentation is fairly complete, it is still in first draft.
+:::
+
 # Column (BonesColumn)
 
 ## Overview
@@ -47,3 +56,32 @@ export interface Column {
   parts: Parts;
 }
 ```
+
+## Examples
+
+::: warning
+Examples use tailwind/salient theme, to use this theme you may add it using the theme npx command and installing Tailwind JIT in your application. [Read more about themes](/guide/themes.html).
+:::
+
+### Code
+```html
+<BonesGrid>
+  <BonesColumn :span="['6', 'md-3']"></BonesColumn>
+  <BonesColumn :span="['6', 'md-3']"></BonesColumn>
+  <BonesColumn :span="['md-6']"></BonesColumn>
+  <BonesColumn></BonesColumn>
+</BonesGrid>
+```
+
+### Output
+
+::: warning
+For display purposed padding and background colors have ben added to the grid and column components.
+:::
+
+<BonesGrid class="bg-gray-300">
+  <BonesColumn class="p-4 bg-gray-400" :span="['6', 'md-3']"></BonesColumn>
+  <BonesColumn class="p-4 bg-gray-400" :span="['6', 'md-3']"></BonesColumn>
+  <BonesColumn class="p-4 bg-gray-400" :span="['md-6']"></BonesColumn>
+  <BonesColumn class="p-4 bg-gray-400"></BonesColumn>
+</BonesGrid>

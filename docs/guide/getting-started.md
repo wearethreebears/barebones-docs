@@ -1,8 +1,10 @@
+::: warning
+While the documentation is fairly complete, it is still in first draft.
+:::
+
 # Getting started with Barebones
 ::: warning
-Please note this documentation is in it's first draft.These getting started instructions currently only include the current default which is a Tailwind based theme.
-
-This getting started guide will assume you are in a Vue 3 / Nuxt 3 application and have Tailwind JIT installed.
+This getting started guide will assume you have already set up  and are in a Vue 3 / Nuxt 3 application.
 :::
 
 ## Add Barebones to a Vue 3 project
@@ -49,6 +51,22 @@ Add the aliases to your aliases in your `vite.config.js` file:
     //
 }
 ```
+
+Next, you will need to add the local configuration files using an NPX command. You can choose a blank canvas configuration, which will just contain the boilerplate for you to start adding your own props and classes or you can choose from one of the pre-made [theme](/guide/themes.html) configurations as a starting point.
+
+To start with a blank canvas run:
+
+```
+npx @wearethreebears/barebones theme blank
+```
+
+To use a pre-made theme you can run a variation of the following command:
+
+```
+npx @wearethreebears/barebones theme <cssLibrary>/<themeName>
+```
+
+Where `<cssLibrary>` is the name of the library (e.g. Tailwind, Vanilla) and `<themeName>` is a theme within that library. [See all available themes here](/guide/themes.html).
 
 You can then import components to Vue with the following pattern:
 ```ts
@@ -120,11 +138,19 @@ export default defineNuxtConfig({
 })
 ```
 
-Copy the local configuration files:
+Next, you will need to add the local configuration files using an NPX command. You can choose a blank canvas configuration, which will just contain the boilerplate for you to start adding your own props and classes or you can choose from one of the pre-made [theme](/guide/themes.html) configurations as a starting point.
+
+To start with a blank canvas run:
+
 ```
-cp -R  node_modules/@wearethreebears/barebones/src/local ./barebones
+npx @wearethreebears/barebones theme blank
 ```
-::: warning
-This command will still be replaced by a theme command.
-:::
+
+To use a pre-made theme you can run a variation of the following command:
+
+```
+npx @wearethreebears/barebones theme <cssLibrary>/<themeName>
+```
+
+Where `<cssLibrary>` is the name of the library (e.g. Tailwind, Vanilla) and `<themeName>` is a theme within that library. [See all available themes here](/guide/themes.html).
 

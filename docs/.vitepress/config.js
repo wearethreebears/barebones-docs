@@ -42,10 +42,16 @@ export default {
                 {
                     text: 'Components',
                     items: [
+                        { text: 'Accordion', link: '/guide/components/accordion' },
                         { text: 'Aside', link: '/guide/components/aside' },
                         { text: 'Button', link: '/guide/components/button' },
-                        { text: 'Column', link: '/guide/components/column' },
                         { text: 'Grid', link: '/guide/components/grid' },
+                        { text: 'Column', link: '/guide/components/column' },
+                        { text: 'Form', link: '/guide/components/form' },
+                        { text: 'FormInput', link: '/guide/components/form-input' },
+                        { text: 'FormSelect', link: '/guide/components/form-select' },
+                        { text: 'FormGroup', link: '/guide/components/form-group' },
+                        { text: 'FormFieldSet', link: '/guide/components/form-fieldset' },
                         { text: 'Image', link: '/guide/components/image' },
                         { text: 'Main', link: '/guide/components/main' },
                         { text: 'Modal', link: '/guide/components/modal' },

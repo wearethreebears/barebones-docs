@@ -1,3 +1,7 @@
+::: warning
+While the documentation is fairly complete, it is still in first draft.
+:::
+
 # Overlay (BonesOverlay)
 
 ## Overview
@@ -8,6 +12,7 @@ The Barebones `Overlay` component is designed to wrap the Barebones `Modal` comp
 | Part name | Description |
 |-----------|-------------|
 | component | The components root element. |
+| overlayInner | Component that sits directly inside the root and contains the default slot |
 
 ## Slots
 
@@ -21,4 +26,11 @@ The Barebones `Overlay` component is designed to wrap the Barebones `Modal` comp
 export interface Overlay {
   parts: Parts;
 }
+```
+
+## Examples
+
+### Code
+```html
+<BonesOverlay></BonesOverlay>
 ```

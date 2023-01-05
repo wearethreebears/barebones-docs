@@ -1,3 +1,11 @@
+<script setup>
+  import BonesText from '@barebones/components/Text/Text.vue';
+</script>
+
+::: warning
+While the documentation is fairly complete, it is still in first draft.
+:::
+
 # Text (BonesText)
 
 ## Overview
@@ -28,3 +36,20 @@ export interface Text {
   parts: Parts;
 }
 ```
+
+## Examples
+
+::: warning
+Examples use tailwind/salient theme, to use this theme you may add it using the theme npx command and installing Tailwind JIT in your application. [Read more about themes](/guide/themes.html).
+:::
+
+### Code
+```html
+<BonesText>
+   The Bronx, New York, 1960. 9-year-old Calogero grows up admiring and fascinated by the local mob boss, Sonny. Calogero's father, Lorenzo, wants to have nothing to do with the mob and does his best to keep his son away from Sonny and mob business. However, it may prove a losing battle.
+</BonesText>
+```
+### Output
+<BonesText>
+  The Bronx, New York, 1960. 9-year-old Calogero grows up admiring and fascinated by the local mob boss, Sonny. Calogero's father, Lorenzo, wants to have nothing to do with the mob and does his best to keep his son away from Sonny and mob business. However, it may prove a losing battle.
+</BonesText>
